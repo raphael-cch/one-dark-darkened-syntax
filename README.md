@@ -1,4 +1,11 @@
-## One Dark Syntax theme
+## One Dark Darkened Syntax theme
+
+This is a darkened version of the One Dark Syntax theme
+
+### Changes to original theme
+* Darkened background (`@syntax-bg` in `colors.less`)
+* Lighter text and comment colors to improve contrast with the darkened background (`@mono-1` and `@mono-3` in `colors.less`)
+* Remove italicized style of comments (remove line in `.syntax--comment` block in `_base.less`)
 
 ![one-dark-syntax](https://cloud.githubusercontent.com/assets/378023/7783203/49271ef6-0174-11e5-8eb1-d80b8d34a0e3.png)
 
